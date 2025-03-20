@@ -14,9 +14,19 @@ body{
     overflow: hidden;
     height: 100vh;
     width: 100vw;
+    position: relative;
 
 }
+
+h2{
+    position: absolute;
+    left:150px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
 #outer{
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -39,4 +49,35 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.restart{
+    height: 50px;
+    width: 97px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: aquamarine;
+    position: absolute;
+    left:20px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.finish{
+    position: absolute;
+    left: 106px;
+    top: 141px;
+    height: 150px;
+    width: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: bold;
+    border-radius: 1rem;
+    padding: 15px 30px;
+    color: #b0413e;
+    background-color: #333;
+    box-shadow: 0 0 1re, rgba(0, 0, 0, 0.3);
 }
