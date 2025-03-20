@@ -53,21 +53,21 @@ h2{
 
 .restart{
     height: 50px;
-    width: 97px;
+    width: 100px;
     padding: 15px 30px;
     border-radius: 10px;
     text-align: center;
-    background-color: aquamarine;
+    background-color: orange;
     position: absolute;
-    left:20px;
-    top: 20px;
+    left:150px;
+    top:170px;
     cursor: pointer;
 }
 
 .finish{
     position: absolute;
-    left: 106px;
-    top: 141px;
+    left: 482px;
+    top: 74px;
     height: 150px;
     width: 240px;
     display: flex;
@@ -80,4 +80,8 @@ h2{
     color: #b0413e;
     background-color: #333;
     box-shadow: 0 0 1re, rgba(0, 0, 0, 0.3);
+}
+
+.disabled{
+    opacity: 0.7;
 }
